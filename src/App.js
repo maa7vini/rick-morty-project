@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Agency from './components/Agency/Agency';
+import Amish from './components/Amish/Amish';
+import Antenna from './components/Antenna/Antenna';
+import Morty from './components/Morty/Morty';
+import Rick from './components/Rick/Rick';
+import Summer from './components/Summer/Summer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <header>
+            <div className='headerTop'>
+                <Rick></Rick>
+
+                <Morty></Morty>
+
+                <Agency></Agency>
+            </div>
+
+            <div className='headerBottom'>
+                <Summer></Summer>
+        
+                <Amish></Amish>
+        
+                <Antenna></Antenna>
+              </div>
+        </header>
+
     </div>
   );
 }

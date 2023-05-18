@@ -1,0 +1,14 @@
+.antennaDiv {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.antennaDiv img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
